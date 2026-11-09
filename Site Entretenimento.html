@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal de Entretenimento Digital</title>
+    
+    <!-- Link para o arquivo de CSS Reset (Eric Meyer) -->
+    <link rel="stylesheet" href="reset.css">
+    
+    <!-- Link para a folha de estilo externa principal -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- CSS INTERNO: Utilizado para estilizar cores específicas de cada ID de seção -->
+    <style>
+        #secao-filmes h2 {
+            color: #ff3366; /* Rosa/Vermelho para Filmes */
+        }
+        #secao-musica h2 {
+            color: #1db954; /* Verde para Música */
+        }
+        #secao-games h2 {
+            color: #00b0ff; /* Azul para Games */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho Principal usando ID -->
+    <header id="cabecalho-principal">
+        <h1>Meu Portal de Entretenimento Digital</h1>
+    </header>
+
+    <!-- CONTAINER FLEXBOX PRINCIPAL -->
+    <main class="container-flex">
+
+        <!-- SEÇÃO 1: Filmes e Séries -->
+        <section id="secao-filmes" class="secao-card">
+            <h2 class="titulo-secao">Filmes e Séries</h2>
+            <p class="texto-explicativo">Explore as últimas novidades das plataformas de streaming, análises de grandes lançamentos do cinema e críticas de séries consagradas.</p>
+            
+            <!-- Imagem 1 com CSS INLINE aplicando borda diretamente no elemento -->
+            <img class="imagem-ilustrativa" src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Cinema" style="border: 2px solid #ff3366;">
+            
+            <p class="texto-explicativo">As maratonas de fim de semana ganharam cara nova com produções originais e narrativas cada vez mais imersivas de Hollywood e do mundo.</p>
+            <img class="imagem-ilustrativa" src="https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Streaming de Filmes">
+        </section>
+
+        <!-- SEÇÃO 2: Música e Podcasts -->
+        <section id="secao-musica" class="secao-card">
+            <h2 class="titulo-secao">Música e Podcasts</h2>
+            <p class="texto-explicativo">Sintonize nos lançamentos de álbuns, playlists customizadas e as melhores produções em áudio que dominam os fones de ouvido globalmente.</p>
+            <img class="imagem-ilustrativa" src="https://images.unsplash.com/photo-1615554851544-e6249b92a492?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Fones de ouvido e Música">
+            
+            <p class="texto-explicativo">Os podcasts continuam em alta como o formato ideal para absorver conhecimento, notícias e histórias envolventes enquanto você faz suas tarefas.</p>
+            <img class="imagem-ilustrativa" src="https://images.unsplash.com/photo-1782274265689-4f10a91d4abb?q=80&w=1640&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Estúdio de Podcast">
+        </section>
+
+        <!-- SEÇÃO 3: Games e Tecnologia -->
+        <section id="secao-games" class="secao-card">
+            <h2 class="titulo-secao">Games e Tecnologia</h2>
+            <p class="texto-explicativo">Acompanhe as atualizações da nova geração de consoles, análises de jogos indie cativantes e os hardwares mais potentes do mercado.</p>
+            <img class="imagem-ilustrativa" src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Console de videogame">
+            
+            <p class="texto-explicativo">A tecnologia avança transformando o entretenimento com Realidade Virtual (VR) e inteligência artificial aplicadas ao design de games inovadores.</p>
+            <img class="imagem-ilustrativa" src="https://images.unsplash.com/photo-1588866054175-c8347662ec72?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Óculos VR">
+        </section>
+
+    </main>
+
+</body>
+</html>
